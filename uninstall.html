@@ -549,7 +549,7 @@
       btn.disabled = true;
       btn.textContent = 'Sending...';
 
-      // Send feedback via mailto to TabTimerPro@gmail.com
+      // Send feedback via mailto to tabtimerpro@gmail.com
       const subject = encodeURIComponent('TabTimer Uninstall Feedback — ' + reason);
       const bodyText = 
         'Reason: ' + reason +
@@ -559,7 +559,7 @@
       const body = encodeURIComponent(bodyText);
 
       // Open mailto - sends feedback to your inbox
-      window.open('mailto:TabTimerPro@gmail.com?subject=' + subject + '&body=' + body);
+      window.open('mailto:tabtimerpro@gmail.com?subject=' + subject + '&body=' + body);
 
       // Show thank you screen
       document.getElementById('feedbackForm').style.display = 'none';
